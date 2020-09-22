@@ -1,0 +1,119 @@
+body {
+  background-color: #0f1f38;
+  margin: 0px;
+  display: block;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+td {
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+}
+
+tr {
+    display: table-row;
+}
+
+.header {
+    background-color: #4fc3f7;
+    height: 3.25em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    color: #ffb300;
+     font-size: 1.25em;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    font-size: 1em;
+    width: 30em;
+}
+
+.door-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.door-frame {
+    cursor: pointer;
+    padding: 0.8em;
+}
+
+.button-row {
+    margin: auto;
+    margin-top: 1em;
+}
+
+.score-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.score-text {
+    display: inline;
+    color: bisque;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding-right: 1.6em;
+    padding-left: 0em;
+}
+
+.score-box {
+    display: inline-block;
+    background-color: #8bc34a;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 500;
+    color: bisque;
+    padding-top: 0.15em; 
+    margin: 0.5em 0.75em 0.5em 0.5em;
+    width: 0.5em;
+    height: 1.5em;
+}
+
+#logo {
+    height: 3em;
+}
+
+#star {
+    padding: .25em;
+}
+
+#bigNumber {
+    font-size: 2.5em;
+    color: #8bc34a;
+}
+
+#button {
+    height: 3em;
+    width: 6.25em;
+    color: #0f1f38;
+    background-color: #ffb300;
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 0.25em;
+}
+
+/*#current-score, #best-score {
+
+}
+*/
+
